@@ -136,6 +136,7 @@ def main() -> None:
     if not queries:
         raise SystemExit("No Phase 4–6 queries found in the SQL file.")
 
+    # Measures the end-to-end profiling runtime.
     started = time.perf_counter()
     run_started_utc = datetime.now(timezone.utc).isoformat()
 
