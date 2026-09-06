@@ -1,0 +1,25 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Raw source data
+data/raw/Online Retail.xlsx
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# Practice / scratch work
+practice/
+
+# Generated analysis outputs
+outputs/
+
+# Personal working notes
+retail transaction analytics notes.docx
